@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /*ul li::marker{
+            color: red;
+        }
+        ol li::marker{
+            color: purple;
+        }*/
+        ::marker{
+            color: pink;
+        }
+        #p1::first-line{
+            color: green;
+        }
+        #p2::first-letter{
+            color: blue;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: 250px;
+            float: left;
+            margin-top: -10px;
+            text-align: justify;
+        }
+        /*input::placeholder{
+            color: brown;
+            padding: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+
+        }*/
+        input{
+            color: red;
+        }
+        #login{
+            background-color: black;
+            padding: 20px;
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+        }
+        ::selection{
+            color: darkviolet;
+        }
+        ul li{
+            list-style-type: none;
+
+        }
+        ul li a{
+            text-decoration: none;
+        }
+        ul li:nth-child(1)::before{
+            content: "❤️";
+        }
+        ul li::before{
+            content: "😍";
+        }
+        ul li::after{
+            content: "😘";
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Ui</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>Arithmetic</li>
+        <li>Communication</li>
+    </ul>
+    <ol>
+        <li>Ui</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>Arithmetic</li>
+        <li>Communication</li>
+    </ol>
+    <form>
+        <div>
+            <input type="text" placeholder="Username">
+            
+        </div>
+        <div>
+            <input type="password" placeholder="Password">
+        </div>
+        <div>
+            <input type="submit" value="login" id="login">
+        </div>
+    </form>
+    <ul>
+        <li>
+            <a href="">Instagram</a>
+        </li>
+        <li>
+            <a href="">Youtube</a>
+        </li>
+        <li>
+            <a href="">Whatsapp</a>
+        </li>
+    </ul>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at, voluptatem corrupti neque placeat illum minima libero maiores quasi incidunt aspernatur mollitia rerum iusto exercitationem. Dolore iste labore sed? Natus neque sint consequuntur maxime nemo! Itaque autem numquam optio alias doloremque iusto! Esse maiores voluptas hic ex placeat corporis laudantium obcaecati minus explicabo incidunt corrupti voluptatem facere, officiis iure ea dolor inventore nulla? Nostrum repellendus ratione, asperiores consequatur eligendi hic temporibus placeat ullam quisquam repudiandae reprehenderit ex eum eos? Nam, officiis vitae ratione porro id expedita repellat atque animi, cupiditate asperiores rem recusandae excepturi sint veritatis provident maiores, nisi fugiat.</p>
+    <p id="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio aliquam impedit quaerat ipsa rerum tenetur eum provident expedita. Ab mollitia minima autem cupiditate. Exercitationem quia, odit illo aspernatur, dolore temporibus eius neque eaque modi dolor doloremque natus, ipsa iure! Nihil libero dolores officiis ipsum voluptatem facilis, totam adipisci! Neque dolore officia molestias ullam provident quas expedita odio deleniti repellat, sint vitae totam praesentium, dicta vero vel. Fuga assumenda doloribus facere nihil soluta atque sequi incidunt voluptatem ipsum! Obcaecati, nesciunt, recusandae error hic harum vitae odio sequi nihil nobis provident necessitatibus eius vero eaque tempora voluptatem? Adipisci magnam quod asperiores cupiditate.</p>
+</body>
+</html>
